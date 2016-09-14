@@ -1,0 +1,262 @@
+/* universal */
+* {
+	font-family: "helvetica", arial, Sans-serif;
+}
+
+/* body */
+h1 {
+	font-weight: bolder;
+	font-size: x-large;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: large;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: normal;
+}  
+
+body {
+	margin: 0 auto;
+	background: linear-gradient(white, #D3D8E8);
+}
+
+header {
+	margin: 0 auto;
+	background: #405E9B;
+}
+
+/* header */
+#header-wrap {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+    height: 83px;
+    background: #405E9B;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.brand {
+	color: white;
+	float: left;
+    margin: 30px 0 0 10px;
+}
+
+.brand a {
+	color: white;
+	text-decoration: none;
+	font-size: 38px;
+	font-weight: bolder;
+	text-shadow: 1px 1px;
+}
+
+.header-login {
+	float: right;
+	margin-top: 10px;
+}
+
+tr td a {
+	color: #91ABDA;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.header-login form table {
+	width: 390px;
+}
+
+tbody th {
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+}
+
+/* body-container */
+#home-left {
+	display: block;
+	float: left;
+	width: 500px;
+    padding: 30px 0 20px 10px;
+    margin-top: 10px;
+}
+
+#home-left h1 {
+	color: #19396D;
+	font-size: 20px;
+	margin: 0
+}
+
+#home-right {
+    display: block;
+    float: right;
+    width: 400px;
+    margin: 20px 0px 20px 0;
+}
+
+input.login-input {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #1D2A5B;
+}
+
+input.login-submit {
+	width: 50px;
+    height: 23px;
+    padding: 1px;
+    font-weight: bold;
+    color: white;
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    border-radius: 2px;
+}
+
+input.login-submit:hover {
+	background-color: #29487D;
+    border: 1px solid navy;
+}
+
+.input1, .input2, .input3 {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	color: #999999;
+	padding-left: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+input.input1 {
+	width: 187px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+input.input2 {
+	width: 187px;
+	height: 35px;
+}
+
+input.input3 {
+	width: 390px;
+	height: 35px;
+}
+
+.birthday-form {
+	display: inline-flex;
+	margin-right: 10px;
+	float: left;
+}
+
+.birthday-form select {
+    height: 30px;
+    width: 70px;
+    background-color: #E4E3E3;
+    border: 1px solid #BDC7D8;
+}
+
+.formdesc {
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.gender {
+	display: inline-block;
+    clear: both;
+    float: left;
+    margin-top: 15px;
+}
+
+.createinput {
+	width: 200px;
+	height: 40px;
+	color: white;
+	font-size: 18px;
+	font-weight: bolder;
+	border-radius: 3px;
+	background: linear-gradient(#67ae55, #578843);
+    border: 1px solid #3B6E22;
+    margin-top: 15px;
+}
+
+.home-label {
+	font-size: 35px;
+	font-weight: bolder;
+	color: #333;
+}
+
+.home-agreement {
+	display: inline-block;
+}
+
+div.home-agreement p {
+	font-size: 11px;
+	color: #777;
+}
+
+div.home-createpage p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #777;
+}
+
+div.home-createpage p a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #4F5899;
+}
+
+/* footer */
+footer {
+	clear: both;
+	background: white;
+}
+
+#footer-wrap {
+	background: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 5px 0 5px 0;
+}
+
+footer .footlang {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footlang table, .footmore table {
+	font-size: 12px;
+	color: #365899;
+}
+
+.footmore {
+    padding-top: 10px;
+}
+
+.footer-copy {
+	margin: 30px 0 10px 0;
+	font-size: 11px;
+	color: #777;
+}
+
+.footlang tbody td, .footmore tbody td {
+	width: 80px;
+}
+
+#footer-container~table {
+	direction: ltr;
+}
